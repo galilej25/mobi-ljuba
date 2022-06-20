@@ -2,7 +2,7 @@ version: '3.8'
 networks: # to create a custom bridge
   ljubab111: 
 services:
-  ashuapp007:
+  ljuba007:
     image: ljubaciapp:v1 
     build: . 
     container_name: ljubaciappc1
