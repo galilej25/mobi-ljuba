@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  ljubappfinal:
+    image: ljubacustomer:v1 
+    build: . # location of dockerfile 
+    container_name: ljubacc1
+    ports:
+    - "1234:80"
+    restart: always 
+    environment: 
+      deploy: "app2"
